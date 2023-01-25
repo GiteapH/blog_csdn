@@ -1,0 +1,75 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@authing/vue-ui-components": "^4.2.1",
+    "@tinymce/tinymce-vue": "^5.0.0",
+    "ant-design-vue": "^3.2.11",
+    "async_hooks": "^1.0.0",
+    "cookie-signature": "^1.2.0",
+    "core-js": "^3.8.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "element-plus": "^2.2.19",
+    "entrance-vue": "^1.0.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fzm": "^1.0.0",
+    "http": "^0.0.1-security",
+    "i": "^0.3.7",
+    "install": "^0.13.0",
+    "jquery": "^3.6.1",
+    "js-cookie": "^3.0.1",
+    "js-md5": "^0.7.3",
+    "net": "^1.0.2",
+    "nodemailer": "^6.7.8",
+    "npm": "^8.18.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "stream": "^0.0.2",
+    "stream-http": "^3.2.0",
+    "tinymce": "^6.1.2",
+    "tinymce-imageupload": "^1.0.7",
+    "url": "^0.11.0",
+    "util": "^0.12.4",
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.5",
+    "vue-tinymce-editor": "^1.6.2",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
